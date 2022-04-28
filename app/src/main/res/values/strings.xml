@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">HoplyApp</string>
+    <string name="UserName">User Name</string>
+    <string name="ToU">Agree to ToU</string>
 </resources>
