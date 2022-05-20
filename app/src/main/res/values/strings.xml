@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">HoplyApp</string>
-    <string name="UserName">User Name</string>
+    <string name="username">username</string>
     <string name="ToU">Agree to ToU</string>
+    <string name="Password">password</string>
+    <string name="actName">name</string>
 </resources>

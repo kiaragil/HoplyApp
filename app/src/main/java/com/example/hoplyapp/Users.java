@@ -1,13 +1,20 @@
 package com.example.hoplyapp;
 
-public class Users {
-    private String id;
-    private String name;
-    private String stamp;
+import java.util.Calendar;
+import java.util.Date;
 
-    public Users(String id, String name, String stamp) {
+public class Users {
+    private Integer id;
+    private String name;
+    private String username;
+    private String password;
+    private Date stamp;
+
+    public Users(Integer id, String name, String username, String password, Date stamp) {
         this.id = id;
         this.name = name;
+        this.username = username;
+        this.password = password;
         this.stamp = stamp;
     }
 
@@ -22,15 +29,17 @@ public class Users {
         return "Users{" +
                 "id='" + id + '\'' +
                 ", name='" + name + '\'' +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
                 ", stamp='" + stamp + '\'' +
                 '}';
     }
 
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -42,11 +51,27 @@ public class Users {
         this.name = name;
     }
 
-    public String getStamp() {
+    public Date getStamp() {
         return stamp;
     }
 
-    public void setStamp(String stamp) {
+    public void setStamp(Date stamp) {
         this.stamp = stamp;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 }
