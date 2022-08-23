@@ -2,6 +2,11 @@
     <string name="app_name">HoplyApp</string>
     <string name="username">username</string>
     <string name="ToU">Agree to ToU</string>
-    <string name="Password">password</string>
+    <string name="password">password</string>
     <string name="actName">name</string>
+    <string name="asdfg">RePassword</string>
+    <string name="repassword">repassword</string>
+    <string name="Update">update</string>
+    <string name="UpdateText">update post here</string>
+    <string name="reaction">react to this post</string>
 </resources>

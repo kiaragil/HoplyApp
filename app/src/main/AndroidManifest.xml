@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HoplyApp">
         <activity
+            android:name=".userPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".editPostActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PostViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

@@ -16,6 +16,12 @@ public class Posts {
     public Posts() {
     }
 
+    @Override
+    public String toString() {
+        return  "\"" + context + "\"" +
+                " by " + user_id;
+    }
+
     public int getId() {
         return id;
     }
@@ -47,4 +53,6 @@ public class Posts {
     public void setStamp(String stamp) {
         this.stamp = stamp;
     }
+
+
 }
